@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CrmApp.API.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
